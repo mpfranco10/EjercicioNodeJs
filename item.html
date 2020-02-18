@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-header" id="{{idheading}}">
+        <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#{{id}}"
+                aria-expanded="false" aria-controls="{{id}}">
+                {{tituloclase}}
+            </button>
+        </h5>
+    </div>
+    <div id="{{id}}" class="collapse" aria-labelledby="{{idheading}}" data-parent="#accordion">
+        <div class="card-body">
+            <!--desde aca-->
+            <div class="container-fluid contenedor">
+                <div class="row">
+                    {{tarjetas}}
+                </div>
+            </div>
+            <!--hasta aca-->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+/* The heart of the matter */
+.contenedor > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+.contenedor > .row > .tarjeta {
+  display: inline-block;
+  float: none;
+}
+.card-text {
+  white-space: normal;
+}
+
+h5{
+  color: red;
+}
